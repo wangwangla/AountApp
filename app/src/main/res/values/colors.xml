@@ -2,4 +2,9 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="app_background">#FFF7F9</color>
+    <color name="text_primary">#1D2939</color>
+    <color name="text_secondary">#667085</color>
+    <color name="income">#039855</color>
+    <color name="expense">#D92D20</color>
 </resources>
