@@ -203,7 +203,128 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="12dp"
                     android:orientation="horizontal">
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginEnd="3dp"
+                        app:cardBackgroundColor="@color/cardview_light_background"
+                        app:cardCornerRadius="2dp"
+                        app:cardElevation="0dp"
+                        app:strokeColor="@color/black"
+                        app:strokeWidth="1dp">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:padding="12dp">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="↑"
+                                android:textColor="@color/income"
+                                android:textSize="22sp"
+                                android:textStyle="bold">
 
+                            </TextView>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:text="Income CNY 0.00"
+                                android:textColor="@color/income"
+                                android:textSize="13sp"
+                                android:textStyle="bold">
+
+                            </TextView>
+                        </LinearLayout>
+
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginEnd="3dp"
+                        app:cardBackgroundColor="@color/cardview_light_background"
+                        app:cardCornerRadius="2dp"
+                        app:cardElevation="0dp"
+                        app:strokeColor="@color/black"
+                        app:strokeWidth="1dp">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:padding="12dp">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="↑"
+                                android:textColor="@color/income"
+                                android:textSize="22sp"
+                                android:textStyle="bold">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:text="Income CNY 0.00"
+                                android:textColor="@color/income"
+                                android:textSize="13sp"
+                                android:textStyle="bold">
+
+                            </TextView>
+                        </LinearLayout>
+
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginEnd="3dp"
+                        app:cardBackgroundColor="@color/cardview_light_background"
+                        app:cardCornerRadius="2dp"
+                        app:cardElevation="0dp"
+                        app:strokeColor="@color/black"
+                        app:strokeWidth="1dp">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:padding="12dp">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="↑"
+                                android:textColor="@color/income"
+                                android:textSize="22sp"
+                                android:textStyle="bold">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:text="Income CNY 0.00"
+                                android:textColor="@color/income"
+                                android:textSize="13sp"
+                                android:textStyle="bold">
+
+                            </TextView>
+                        </LinearLayout>
+
+
+                    </com.google.android.material.card.MaterialCardView>
                 </LinearLayout>
             </LinearLayout>
         </androidx.constraintlayout.widget.ConstraintLayout>
