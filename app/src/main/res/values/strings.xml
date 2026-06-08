@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">AccountApp</string>
+    <string name="test_widget_description">Test widget</string>
 </resources>
