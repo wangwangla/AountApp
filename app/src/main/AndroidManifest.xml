@@ -26,10 +26,7 @@
             android:exported="true">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
-                <action android:name="com.tony.video.music.action.TOGGLE" />
-                <action android:name="com.tony.video.music.action.PREVIOUS" />
-                <action android:name="com.tony.video.music.action.NEXT" />
-                <action android:name="com.tony.video.music.action.REFRESH_WIDGET" />
+                <action android:name="com.tony.accountapp.action.WIDGET_TICK" />
             </intent-filter>
             <meta-data
                 android:name="android.appwidget.provider"

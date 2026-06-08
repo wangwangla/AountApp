@@ -21,6 +21,15 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+        /**
+         *
+         * Button btn = findViewById(R.id.btn_refresh_widget);
+         * btn.setOnClickListener(v -> {
+         *     Intent intent = new Intent("com.tony.accountapp.action.WIDGET_TICK");
+         *     intent.setClass(this, TestWidgetProvider.class); // 显式发给你的 Provider
+         *     sendBroadcast(intent);
+         * });
+         * */
     }
 
     private void hideSystemUI() {
