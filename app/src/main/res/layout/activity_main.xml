@@ -76,6 +76,30 @@
                     </TextView>
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
+                <TextView
+                    android:id="@+id/shortcutDemoTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/shortcut_demo_title"
+                    android:textColor="@color/text_primary"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btn_dynamic_shortcut"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/shortcut_btn_dynamic" />
+
+                <Button
+                    android:id="@+id/btn_pinned_shortcut"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/shortcut_btn_pinned" />
+
                 <com.google.android.material.card.MaterialCardView
                     android:id="@+id/summaryCard"
                     android:layout_width="match_parent"

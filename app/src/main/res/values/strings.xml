@@ -2,4 +2,18 @@
     <string name="app_name">AccountApp</string>
     <string name="test_widget_description">Test widget</string>
     <string name="test_widget_title">Test</string>
+    <string name="shortcut_demo_title">Shortcut Demo</string>
+    <string name="shortcut_btn_dynamic">Publish Dynamic Shortcut</string>
+    <string name="shortcut_btn_pinned">Request Pinned Shortcut</string>
+    <string name="shortcut_static_short">Static Add</string>
+    <string name="shortcut_static_long">Open app from static shortcut</string>
+    <string name="shortcut_dynamic_short">Dynamic Add</string>
+    <string name="shortcut_dynamic_long">Open app from dynamic shortcut</string>
+    <string name="shortcut_pinned_short">Pinned Add</string>
+    <string name="shortcut_pinned_long">Open app from pinned shortcut</string>
+    <string name="shortcut_opened_static">Opened from static shortcut</string>
+    <string name="shortcut_opened_dynamic">Opened from dynamic shortcut</string>
+    <string name="shortcut_opened_pinned">Opened from pinned shortcut</string>
+    <string name="shortcut_pinned_not_supported">This launcher does not support pinned shortcuts</string>
+    <string name="settings_title">Settings Page</string>
 </resources>
