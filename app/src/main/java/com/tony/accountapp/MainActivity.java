@@ -107,6 +107,13 @@ public class MainActivity extends AppCompatActivity {
             return;
         }
 
+        if (data != null
+                && "accountapp".equals(data.getScheme())
+                && "settings".equals(data.getHost())) {
+            startActivity(new Intent(this, SettingsActivity.class));
+            return;
+        }
+
         if (SOURCE_DYNAMIC.equals(source)) {
             Toast.makeText(this, R.string.shortcut_opened_dynamic, Toast.LENGTH_SHORT).show();
         } else if (SOURCE_PINNED.equals(source)) {
